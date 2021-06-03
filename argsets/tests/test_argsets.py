@@ -15,13 +15,13 @@ def test_pairs():
     parser = argparse.ArgumentParser()
       
     # adding an arguments 
-#    parser.add_argument('--kwargs', 
-#                        nargs='*', 
-#                        action = ParseKwargs)
     parser.add_argument('--server', 
                         nargs='*', 
                         action = ParseKwargs)
 
+    # this is where I simulate the command line passing multiple
+    # arguments of the same key. Once I get this working, I will
+    # do the same for another attribute, --userId
     raw_args = [ '--server', 'One', '--server' , 'Two', '--server', 'Three' ]
       
      #parsing arguments 
