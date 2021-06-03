@@ -1,0 +1,2 @@
+# python_multi_arg_pairs
+handy for when you have a few arguments of the same type. For example, you want to schedule a job to run on several servers with different username and passwords. --source_server abc --username userA --encrypted-password encUserA --source_server abc --username userA --encrypted-password encUserA  --source_server def --username userB --encrypted-password encUserB  --source_server ghi --username userC --encrypted-password encUserC
